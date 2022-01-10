@@ -7,7 +7,7 @@ namespace Belajar_Api_Net.Domains.Movie.Entites
     public class MovieEntity : BaseEntity
     {
         [Column("id")]
-        public Guid id { get; set; }
+        public int id { get; set; }
 
         [Column("title")]
         public string title { get; set; }
